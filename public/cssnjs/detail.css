@@ -1,0 +1,133 @@
+.detail-back-cont{
+    display: flex;
+    transition: ease-in 0.3s ;
+}
+
+.detail-back{
+    background-color: rgb(255, 50, 50);
+    padding: 0.3rem;
+    border-radius: 5px;
+    text-align: center;
+    font-family: roboto;
+    margin: 1rem;
+    transition: ease-in 0.3s ;
+}
+
+.detail-back:hover{
+    transition: ease-in 0.3s ;
+    box-shadow: 0px 0px 4px 5px rgba(148, 148, 148, 0.2);
+}
+
+.detail-img-conf{
+    transition: ease-in 0.3s ;
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 10rem;
+    height: 20rem;
+    border-radius: 3.5px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.detail-img-conf>img{
+    height: inherit;
+}
+
+.detail-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: roboto;
+    color: white;
+    border-radius: 5px;
+}
+
+.detail-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: roboto;
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.detail-movie-detail{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    /* background-color: wheat; */
+    padding: 1rem;
+}
+
+.detail-movie-detail>div{
+    
+    margin-bottom: 0.5rem;
+}
+
+.detail-category-set{
+    display: flex;
+    flex-direction: row;
+}
+
+.detailwidth-cek{
+    width: 20rem;
+}
+
+.detail-category-detail{
+    text-decoration: underline;
+    margin-left: 0.5rem;
+}
+
+.detail-episode-cont{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+}
+
+.detail-episode-cek{
+    width: 10rem;
+}
+
+.detail-main-first{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.detail-episode-main-cont{
+    /* display: flex;
+    flex-direction: column; */
+    margin-top: 1rem;
+    height: 17rem;
+    background-color:  #141414;
+    padding: 1rem;
+    border-radius: 3px;
+}
+
+
+.pagination {
+    margin-top: 0.5rem;
+    list-style: none;
+    padding-left: 0;
+  }
+
+.pagination li {
+    display: inline-block;
+}
+
+.pagination a {
+    text-decoration: none;
+    padding: 0.2rem 0.4rem;
+    color:  rgb(255, 50, 50);
+    border: 2px solid  rgb(255, 50, 50);
+    border-radius: 2px;
+  }
+
+.pagination li+li {
+    margin-left: 1rem;
+}
